@@ -1,0 +1,19 @@
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+#print(type(height))
+#print(type(weight))
+
+#BMI = Weight / Height squared
+
+height_m = float(height)
+weight_kg = float(weight)
+
+bmi = ((weight_kg)/(height_m**2))
+
+#This makes bmi a whole number
+bmi_as_int = int(bmi)
+
+print(("bmi = "),(bmi_as_int))
+
